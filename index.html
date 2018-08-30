@@ -1,6 +1,53 @@
-<head>
-  <title>Hero Trap</title>
-</head>
+<!DOCTYPE html>
+<html>
 
-<h1>Hello!</h1>
-<h2>Hi</h2>
+<head>
+<link rel="stylesheet" type="text/css" href="interface.css" />
+<script type="text/javascript" src="main.js"></script>
+
+<title>Hero Nerf</title>
+</head>
+<body onload="load()">
+
+<h1 class="title">Hero Nerf</h1>
+<h2 class="subtitle">An Incremental Revenge Story</h2>
+
+<div class="leftside">
+<p>
+	Slimes: <span id="slimes">1</span>
+	<br />
+	<br />
+	Slime Stats:
+	<br />
+	--------------
+	<br />
+	Health: <span id="slimeHealth">2</span>
+	<br />
+	<br />
+	<button onClick="buySlime()">Buy a Slime</button>
+	Cost: <span id="slimeCost">10</span>
+	<br />
+	<br />
+	<button onClick="attackHero(slimes)">Attack</button>
+	<span id="gold">0</span>
+	<br />
+	<button onClick="save()">Save</button>
+	<br />
+	<button onClick="restart()">Restart</button>
+</p>
+</div>
+
+<div class="rightside">
+<p>
+	Hero
+	<br />
+	------
+	<br />
+	Health: <span id="heroHealth"><script type="text/javascript">
+	document.write(heroHealth)
+      </script></span>
+</p>
+</div>
+
+</body>
+</html>
