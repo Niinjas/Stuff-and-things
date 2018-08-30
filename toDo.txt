@@ -1,4 +1,4 @@
-Mob does and gives Gold/xp and high chance of items to the Hero
+Mob dies and gives Gold/xp and high chance of items to the Hero
 Hero xp gives level up, improves stats, gets stronger, points in skill tree
 Hero uses gold to improve stats/to buy pots
 Hero uses items for improving stats/ to craft weapons/pots
