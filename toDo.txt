@@ -1,0 +1,31 @@
+Mob does and gives Gold/xp and high chance of items to the Hero
+Hero xp gives level up, improves stats, gets stronger, points in skill tree
+Hero uses gold to improve stats/to buy pots
+Hero uses items for improving stats/ to craft weapons/pots
+Hero stats should be visible as well as modifiers
+Gold requirement for next purchase/xP requirement for next level up
+Hero stat improvements mean Mobs die faster
+Hero is stronger but the Hero dies eventually
+Hero drops Gold/xp and low chance of items to the Mob
+Mob uses xp to improve stats, gets stronger, points in skill tree
+Mob uses Gold for buffs - possible gameHax?
+Individual mobs should be nameable, get permanent buffs and level individually
+Mob uses items to imrpove stats, sells for gold or permanantly improves individual stats
+Sould be able to sacrifice lower tier Mobs to buff higher tier Mobs
+Lower level Mobs should be able to be automated for later sacrifice
+GameHax may slowly follow through prestige to improve scaling
+Mob that becomes raidboss is buffed next run
+Raidboss will reach max level based on number of hero kills
+Mobs evolve to the next tier at max level - gameGlitch?
+Evolving may lead to a permanent stat reset and buff
+Mobs should have a kill count to evolve into a boss
+Mobs should have a level count to evolve to a new class
+Mobs should have a gold count to evolve to a new Mob
+Hero levels up and uses randomly placed stats to determine a class
+Different classes should use gold/crafting to equip different items
+If the Hero dies '5' times in a row a new Hero should spawn
+If a Mob dies '5' times without dealing damage a new Mob should spawn or should receive a random mutation
+
+Bugs
+-----
+load (localstorage.getItem) - heroHealth - starts at 10, variable static rather than starting at new value - still decrements from correct value
