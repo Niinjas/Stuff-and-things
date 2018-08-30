@@ -1,0 +1,15 @@
+V0.01 (26 Aug 18)
+-----------------
+A battle rages between Hero and Slime
+The Slime is killed but continues to fight back
+The Hero dies eventually
+
+V0.02 (30 Aug 18)
+-----------------
+Saving and loading added
+Ability to delete save added
+Bug discovered - Load always starts Hero on 10 health but continues decrementing from the saved value
+
+V0.03 (31 Aug 18)
+-----------------
+Hero Trap now hosted at http://niinjas.github.io/Stuff-and-things/
